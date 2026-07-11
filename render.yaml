@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: driveway-co-sale-landing
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
