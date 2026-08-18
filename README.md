@@ -1,19 +1,20 @@
-# Driveway Co. Sale Landing (Mockup)
+# Driveway Co. site mockup
 
-Static multi-page confidential-sale website mockup for **The Driveway Company Inc.** process (WBI / DRV-2026-001).
+Static site on Render. **noindex on every page.** Not a live listing.
 
-## Pages
-- `index.html` — overview / teaser
-- `opportunity.html` — public opportunity summary
-- `process.html` — buyer process
-- `inquire.html` — CIM request form (UI only until wired)
-- `thanks.html` — form thank-you state
+## Company pages (Bill WS2)
+- `index.html` — home
+- `services.html`
+- `area.html`
+- `about.html`
+- `contact.html` — form UI only
+- `gallery.html` — real job photos
+
+## Sale preview
+- `sale.html` — confidential teaser, list **$275,000**
+- `opportunity.html` / `process.html` / `inquire.html` / `thanks.html`
 
 ## Rules
-- `noindex, nofollow` on all pages (preview / staged)
-- No tax returns, customer lists, or VINs on the public site
-- List price shown: **$289,000** (tax-grounded framing)
-- Not a live market listing until brokerage extension gate is open
-
-## Deploy
-Public GitHub repo → Render Static Site (publish path `.`)
+- No tax returns, customer lists, or VINs
+- Go-live still Week 7
+- Deploy: push `main` → Render `driveway-co-sale-landing`
