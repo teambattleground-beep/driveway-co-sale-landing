@@ -18,3 +18,4 @@ Static site on Render. **noindex on every page.** Not a live listing.
 - No tax returns, customer lists, or VINs
 - Go-live still Week 7
 - Deploy: push `main` → Render `driveway-co-sale-landing`
+- Custom domain **verified:** https://drivewaycompanyohio.com (noindex). Logo: `images/logo.svg`.
