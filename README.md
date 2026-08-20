@@ -7,7 +7,7 @@ Static site on Render. **noindex on every page.** Not a live listing.
 - `services.html`
 - `area.html`
 - `about.html`
-- `contact.html` — form UI only
+- `contact.html` — form posts to sale@drivewaycompanyohio.com (formsubmit) once Porkbun forward exists
 - `gallery.html` — real job photos
 
 ## Sale preview

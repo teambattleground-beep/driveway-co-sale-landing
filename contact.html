@@ -21,11 +21,14 @@
     </div>
   </nav>
   <main class="container" style="padding-top:48px;">
-    <h1 class="page-title">Tell us where the driveway is.</h1>
-    <p class="page-sub">Season is May through October. Leave a name, a phone, and the town. We’ll call when that corridor is on the board.</p>
+    <h1 class="page-title">Tell us where the drive or lot is.</h1>
+    <p class="page-sub">Homes, business driveways, and parking lots. Season is May through October. Leave a name, a phone, and the town. We’ll call when that corridor is on the board.</p>
     <section class="card">
-      <div class="callout">Form is staged. Domain is live at drivewaycompanyohio.com — nothing here emails a mailbox yet.</div>
-      <form class="form-grid" action="thanks.html" method="get">
+      <div class="callout">Quotes route to <strong>sale@drivewaycompanyohio.com</strong> once Porkbun forwarding is live. Until then this form still lands on the thanks page.</div>
+      <form class="form-grid" action="https://formsubmit.co/sale@drivewaycompanyohio.com" method="post">
+        <input type="hidden" name="_next" value="https://drivewaycompanyohio.com/thanks.html" />
+        <input type="hidden" name="_subject" value="Driveway Co. quote request" />
+        <input type="text" name="_honey" style="display:none" />
         <div class="form-row">
           <div><label for="name">Name</label><input id="name" name="name" required /></div>
           <div><label for="phone">Phone</label><input id="phone" name="phone" required /></div>
@@ -35,8 +38,9 @@
           <div>
             <label for="job">What do you need?</label>
             <select id="job" name="job">
-              <option>Residential sealcoating</option>
-              <option>Commercial lot</option>
+              <option>Residential driveway</option>
+              <option>Business driveway</option>
+              <option>Parking lot / commercial paving</option>
               <option>Crack fill / pothole</option>
               <option>Not sure — call me</option>
             </select>
@@ -46,7 +50,7 @@
           <label for="notes">Anything we should know</label>
           <textarea id="notes" name="notes" rows="4" placeholder="Long drive, circling the house, lot behind the plaza…"></textarea>
         </div>
-        <button class="btn btn-primary" type="submit">Send (demo)</button>
+        <button class="btn btn-primary" type="submit">Send request</button>
       </form>
     </section>
   </main>
