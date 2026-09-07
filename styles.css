@@ -102,7 +102,7 @@ a:hover { text-decoration: underline; }
   padding: 80px 28px 72px;
   background:
     linear-gradient(180deg, rgba(11,11,12,0.15) 0%, rgba(11,11,12,0.35) 40%, rgba(11,11,12,0.92) 100%),
-    url("images/job-01-long-drive.jpg") center 30%/cover no-repeat;
+    url("images/job-16-parking-lot.jpg") center 40%/cover no-repeat;
 }
 .hero.crew { background-image: linear-gradient(180deg, rgba(11,11,12,0.2) 0%, rgba(11,11,12,0.88) 100%), url("images/job-15-crew-work.jpg"); background-size: cover; background-position: center; }
 .hero.house { background-image: linear-gradient(180deg, rgba(11,11,12,0.25) 0%, rgba(11,11,12,0.9) 100%), url("images/job-04-residence.jpg"); background-size: cover; background-position: center; }
@@ -232,7 +232,7 @@ a:hover { text-decoration: underline; }
 .svc h3 { font-family: "Barlow Condensed", sans-serif; font-size: 28px; text-transform: uppercase; margin-bottom: 6px; }
 .svc p { color: #d6d1c7; font-size: 15px; }
 .svc.s1 { background: url("images/job-04-residence.jpg") center/cover; }
-.svc.s2 { background: url("images/job-05-stone-drive.jpg") center/cover; }
+.svc.s2 { background: url("images/job-16-parking-lot.jpg") center/cover; }
 .svc.s3 { background: url("images/job-15-crew-work.jpg") center/cover; }
 
 .towns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
@@ -282,7 +282,7 @@ a:hover { text-decoration: underline; }
   min-height: 520px;
 }
 .split .copy { padding: 64px 40px; background: #121214; display: flex; flex-direction: column; justify-content: center; }
-.split .pic { background: url("images/job-15-crew-work.jpg") center/cover; }
+.split .pic { background: url("images/job-03.jpg") center/cover; }
 .split.alt .pic { background-image: url("images/job-02-wooded-drive.jpg"); }
 
 .callout, .callout.gold, .callout.warn {
