@@ -1,21 +1,26 @@
-# Driveway Co. site mockup
+# Driveway Co. site
 
-Static site on Render. **noindex on every page.** Not a live listing.
+Static site on Render. Custom domain: https://drivewaycompanyohio.com
 
-## Company pages (Bill WS2)
-- `index.html` — home
-- `services.html`
-- `area.html`
-- `about.html`
-- `contact.html` — form posts to sale@drivewaycompanyohio.com (formsubmit) once Porkbun forward exists
-- `gallery.html` — real job photos
+**noindex on every page.** Direct links work. Do not flip indexing unless JB says so.
 
-## Sale preview
-- `sale.html` — confidential teaser, list **$275,000**
-- `opportunity.html` / `process.html` / `inquire.html` / `thanks.html`
+## Company pages
+
+- `index.html` — operating company. Quote site. Not the for-sale front door.
+- `services.html` / `area.html` / `about.html`
+- `contact.html` — quote form posts to sale@ via FormSubmit
+- `gallery.html` — job photos only. No long-drive shot (yard sign shows a phone number).
+- `thanks.html` — quote-form receipt
+
+## Buyer pages (live listing, not a preview)
+
+- `sale.html` — for-sale page. List **$275,000**. Send buyers here, not to the homepage.
+- `opportunity.html` / `process.html` / `inquire.html` / `buyer-thanks.html`
+- Inquiry form posts to sale@. No PREVIEW banner. No internal price notes.
 
 ## Rules
-- No tax returns, customer lists, or VINs
-- Go-live still Week 7
-- Deploy: push `main` → Render `driveway-co-sale-landing`
-- Custom domain **verified:** https://drivewaycompanyohio.com (noindex). Logo: `images/logo.svg`.
+
+- No tax returns, customer lists, VINs, phone numbers, shop, or yard.
+- Do not put fleet value next to the list price. Equipment is included in $275,000.
+- Real estate is not included.
+- Deploy: push `main` → Render `driveway-co-sale-landing`.
