@@ -2,7 +2,7 @@
 
 Static site on Render. Custom domain: https://drivewaycompanyohio.com
 
-**noindex on every page.** Direct links work. Do not flip indexing unless JB says so.
+**Indexing is on.** JB approved 2026-10-11. Thank-you pages stay noindex.
 
 ## Company pages
 
